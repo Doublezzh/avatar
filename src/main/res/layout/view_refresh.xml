@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/ig"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
+        android:src="@mipmap/back_refresh" />
+
+
+    <TextView
+        android:id="@+id/refresh_num"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@+id/ig"
+        android:layout_marginLeft="-35dp"
+        android:layout_toRightOf="@+id/ig"
+        android:background="@drawable/refresh_tv_bg"
+        android:fontFamily="@font/zyhei"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

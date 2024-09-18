@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    android:background="@drawable/gradient_background">
+
+    <!-- 上方的 ImageView -->
+    <ImageView
+        android:id="@+id/guide_line_top"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:src="@mipmap/guide_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 下方的 ImageView -->
+    <ImageView
+        android:id="@+id/guide_line_bottom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="62dp"
+        android:src="@mipmap/guide_line"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- 主要内容的 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/guide_line_bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guide_line_top">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/guide_game_about_title" />
+
+        <TextView
+            android:layout_width="675dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/zyhei"
+            android:lineSpacingExtra="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/guide_about"
+            android:textColor="@color/white"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <!-- 返回按钮 -->
+
+    <FrameLayout
+        android:layout_width="965dp"
+        android:layout_height="338dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <androidx.media3.ui.PlayerView
+            android:id="@+id/player_view"
+            android:layout_width="965dp"
+            android:background="@color/white"
+            android:layout_height="338dp"
+            app:resize_mode="fill" />
+    </FrameLayout>
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/close"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="28dp"
+        android:background="@mipmap/close"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,122 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@mipmap/ic_occupied_left_1"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_2"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_3"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_4"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_5"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_6"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_7"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_8"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_9"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_10"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_11"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_12"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_13"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_14"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_15"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_16"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_17"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_18"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_19"
+        android:duration="50" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_20"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_21"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_22"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_23"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_24"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_25"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_26"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_27"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_28"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_29"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_30"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_31"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_32"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_33"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_34"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_35"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_36"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_37"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_38"
+        android:duration="80" />
+    <item
+        android:drawable="@mipmap/ic_occupied_left_39"
+        android:duration="80" />
+
+
+</animation-list>

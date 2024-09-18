@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="unselected_images">
+        <item>@mipmap/ic_unselected1</item>
+        <item>@mipmap/ic_unselected2</item>
+        <item>@mipmap/ic_unselected3</item>
+        <item>@mipmap/ic_unselected4</item>
+        <item>@mipmap/ic_unselected5</item>
+
+    </array>
+    <array name="selected_images">
+
+        <item>@mipmap/ic_selected1</item>
+        <item>@mipmap/ic_selected2</item>
+        <item>@mipmap/ic_selected3</item>
+        <item>@mipmap/ic_selected4</item>
+        <item>@mipmap/ic_selected5</item>
+        <item>@mipmap/ic_selected6</item>
+        <item>@mipmap/ic_selected7</item>
+        <item>@mipmap/ic_selected8</item>
+        <item>@mipmap/ic_selected9</item>
+        <item>@mipmap/ic_selected10</item>
+        <item>@mipmap/ic_selected11</item>
+        <item>@mipmap/ic_selected12</item>
+        <item>@mipmap/ic_selected13</item>
+        <item>@mipmap/ic_selected14</item>
+        <item>@mipmap/ic_selected15</item>
+
+
+    </array>
+</resources>

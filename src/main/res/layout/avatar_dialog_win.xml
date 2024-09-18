@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/common_ll"
+        android:layout_width="899dp"
+        android:layout_height="459dp"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/avatar_win_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/zyhei"
+            android:textColor="#000"
+            android:textSize="40sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:minWidth="280dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/zyhei"
+                android:text="共耗时:"
+                android:textColor="#000"
+                android:textSize="40dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/avatar_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="right"
+                android:fontFamily="@font/zyhei"
+                android:textColor="#000"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="280dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/zyhei"
+                android:text="使用小车:"
+                android:textColor="#000"
+                android:textSize="40dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/avatar_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/zyhei"
+
+                android:textColor="#000"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/menu_bt"
+            android:layout_width="168dp"
+            android:layout_height="68dp"
+            android:background="@mipmap/gameover_menu"
+            android:fontFamily="@font/zyhei"
+            android:soundEffectsEnabled="false"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/again_bt"
+            style="@null"
+            android:layout_width="168dp"
+            android:layout_height="68dp"
+            android:background="@mipmap/gameover_again"
+            android:fontFamily="@font/zyhei"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/next_bt"
+            style="@null"
+            android:layout_width="203dp"
+            android:layout_height="68dp"
+            android:background="@mipmap/avatar_next"
+            android:fontFamily="@font/zyhei"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </LinearLayout>
+</RelativeLayout>

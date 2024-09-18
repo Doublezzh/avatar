@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/background_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/avatar_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.svw.avatar.customize.views.ClassicMode
+        android:id="@+id/item_group"
+        android:layout_width="1600dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:item_horizontal_count="9"
+        app:item_horizontal_spacing="10dp"
+        app:item_spacing="10dp"
+        app:item_vertical_count="9"
+        app:item_vertical_spacing="10dp" />
+
+
+    <com.svw.avatar.customize.views.AnimationImageButton
+        android:id="@+id/image_back_ig"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/back_bg" />
+
+    <com.svw.avatar.customize.views.AnimationImageButton
+        android:id="@+id/how_ig"
+        android:layout_width="163dp"
+        android:layout_height="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="21dp"
+        android:background="@mipmap/howtoplay_ig" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="33dp"
+            android:src="@mipmap/avatar_level" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/level_text"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/zyhei"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/refresh_btn"
+        android:layout_width="169dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="35dp"
+        android:background="@mipmap/ic_refresh"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="bottom|end"
+        android:textColor="@color/colorButtonText"
+        android:textSize="@dimen/xhpx_38"
+        android:textStyle="bold|italic" />
+
+    <com.svw.avatar.customize.views.RefreshView
+        android:id="@+id/undo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/refresh_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="35dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+
+
+
+</RelativeLayout>

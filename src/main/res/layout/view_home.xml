@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/avatar_bg">
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/logo"
+        android:layout_width="1162dp"
+        android:layout_height="327dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:background="@mipmap/avatar_logo"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/classic_mode_btn"
+        android:layout_width="251dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:background="@mipmap/start_game"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:textColor="@color/colorButtonText"
+        android:textStyle="bold" />
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/exit_btn"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/avatar_gameover"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <com.svw.avatar.customize.views.AnimationButton
+        android:id="@+id/sound_btn"
+        android:layout_width="96dp"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="37dp"
+        android:background="@mipmap/ic_sound"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <com.svw.avatar.customize.views.RandomPiggies
+        android:id="@+id/random_piggies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
